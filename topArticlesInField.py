@@ -2,7 +2,7 @@ from Bio import Entrez,Medline
 from copy import copy
 from progress.bar import Bar
 import argparse
-Entrez.email = ""
+Entrez.email = "example@mail.org"
 
 class TopArticlesExtractor():
 
